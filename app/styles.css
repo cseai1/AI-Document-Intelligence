@@ -1,0 +1,83 @@
+/* Advanced Streamlit Custom CSS for Professional RAG Dashboard */
+<style>
+:root {
+    --primary: #10a37f;
+    --secondary: #343541;
+    --accent: #12b981;
+    --dark-bg: #202123;
+    --card-bg: #2d2d2d;
+    --text-light: #f0f0f0;
+}
+
+/* Main container styling */
+.main {
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+    color: var(--text-light);
+}
+
+/* Card styling */
+.st-emotion-cache-1y4p8pa {
+    background: var(--card-bg) !important;
+    border-radius: 12px;
+    border: 1px solid rgba(16, 163, 127, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Button styling */
+.st-emotion-cache-1gv5ylf button {
+    background: linear-gradient(135deg, var(--primary), var(--accent)) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 4px 15px rgba(16, 163, 127, 0.3);
+    transition: all 0.3s ease;
+}
+
+.st-emotion-cache-1gv5ylf button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(16, 163, 127, 0.5);
+}
+
+/* Tabs styling */
+.st-tabs [role="tablist"] {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.st-tabs [role="tab"] {
+    background: transparent;
+    color: var(--text-light);
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.st-tabs [role="tab"][aria-selected="true"] {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: white;
+    box-shadow: 0 4px 10px rgba(16, 163, 127, 0.3);
+}
+
+/* Metrics styling */
+.st-emotion-cache-1ps6nag {
+    background: var(--card-bg);
+    border-radius: 12px;
+    border-left: 4px solid var(--primary);
+    padding: 20px;
+}
+
+/* Expander styling */
+.st-expander {
+    background: var(--card-bg) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(16, 163, 127, 0.1) !important;
+}
+
+/* Chat message styling */
+.st-emotion-cache-ocqkz7 {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 15px;
+    border-left: 3px solid var(--primary);
+}
+</style>
