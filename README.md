@@ -2,7 +2,7 @@
 
 A polished Retrieval-Augmented Generation (RAG) project that allows users to upload documents and chat with them using AI.
 
-This repository is designed as a final-year CSE/AI project with a production-like interface, multi-session handling, document persistence, and vector search.
+This repository is designed as a  project with a production-like interface, multi-session handling, document persistence, and vector search.
 
 ## ✅ Key Features
 
@@ -78,4 +78,4 @@ This project is suitable for a final-year CSE AI submission because it solves a 
 - multi-document chat
 - production-oriented usability
 
-If you want, I can also help you create a short project report outline and a deployment-ready `README` for GitHub.    
+
