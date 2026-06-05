@@ -61,7 +61,7 @@ class AdvancedChatApp:
                                                 from langchain_google_genai import GoogleGenerativeAIEmbeddings
                                                 embedding = GoogleGenerativeAIEmbeddings(
                                                     model="models/gemini-embedding-001",
-                                                    google_api_key="AIzaSyABHiuNZOUyBzyvLzmEypTID0LFGAYIm0Y"
+                                                    google_api_key="API KEY"
                                                 )
                                                 vectordb = FAISS.load_local(
                                                     faiss_path,
@@ -348,7 +348,7 @@ class AdvancedChatApp:
                             from langchain_google_genai import GoogleGenerativeAIEmbeddings
                             embedding = GoogleGenerativeAIEmbeddings(
                                 model="models/gemini-embedding-001",
-                                google_api_key="AIzaSyABHiuNZOUyBzyvLzmEypTID0LFGAYIm0Y"
+                                google_api_key="API KEY"
                             )
                             vectordb = FAISS.load_local(
                                 faiss_path,
