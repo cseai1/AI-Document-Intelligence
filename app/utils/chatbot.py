@@ -25,7 +25,7 @@ def get_context_retriever_chain(vectordb):
     model="gemini-2.5-flash-lite", 
     temperature=0.2, 
     convert_system_message_to_human=True,
-    google_api_key="AQ.Ab8RN6IvSCFAFa4_wlQ0PP0r5cxCxh8FZisFNPdiTBzfIJ3FXA"
+    google_api_key="API KEY "
 )
     retriever = vectordb.as_retriever()
     prompt = ChatPromptTemplate.from_messages([
