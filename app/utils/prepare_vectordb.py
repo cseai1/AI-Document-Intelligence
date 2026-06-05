@@ -78,7 +78,7 @@ def get_vectorstore(file_list=None, from_session_state=False, session_id=None):
     load_dotenv()
     embedding = GoogleGenerativeAIEmbeddings(
         model="models/gemini-embedding-001",
-        google_api_key="AIzaSyABHiuNZOUyBzyvLzmEypTID0LFGAYIm0Y"
+        google_api_key="API KEY"
     )
     if not from_session_state:
         # Only load and index the file(s) for this session
