@@ -281,7 +281,7 @@ class RefinedApp:
                                                 from langchain_google_genai import GoogleGenerativeAIEmbeddings
                                                 embedding = GoogleGenerativeAIEmbeddings(
                                                     model="models/gemini-embedding-001",
-                                                    google_api_key="AIzaSyABHiuNZOUyBzyvLzmEypTID0LFGAYIm0Y"
+                                                    google_api_key="API KEY"
                                                 )
                                                 vectordb = FAISS.load_local(
                                                     faiss_path,
@@ -553,7 +553,7 @@ class RefinedApp:
                             from langchain_google_genai import GoogleGenerativeAIEmbeddings
                             embedding = GoogleGenerativeAIEmbeddings(
                                 model="models/gemini-embedding-001",
-                                google_api_key="AIzaSyABHiuNZOUyBzyvLzmEypTID0LFGAYIm0Y"
+                                google_api_key="API KEY"
                             )
                             faiss_path = os.path.join("faiss_indexes", f"{st.session_state.active_chat_id}.faiss")
                             vectordb = FAISS.load_local(
